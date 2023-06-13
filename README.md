@@ -23,17 +23,17 @@ CodeIgniter tepat untuk Anda jika:
 - Anda tidak ingin dipaksa untuk mempelajari bahasa template (walaupun pengurai template tersedia secara opsional jika Anda menginginkannya).
 - Anda menghindari kerumitan, menyukai solusi sederhana.
 
-## Instal CodeIgniter
+## Install CodeIgniter4
 ✨Menggunakan Composer✨
 ✨Menggunakan Cara Manual✨
 
 ## Konsep MVC
 ![alt text](https://github.com/DwiEllya/CodeIgniter4/blob/main/assets/film/MVC.jpg?raw=true)
 Model View Controller atau yang dapat disingkat MVC adalah sebuah pola arsitektur dalam membuat sebuah aplikasi dengan cara memisahkan kode menjadi tiga bagian yang terdiri dari:
-- Model
+- Model,
 Bagian yang bertugas untuk menyiapkan, mengatur, memanipulasi, dan mengorganisasikan data yang ada di database.
-- View
+- View,
 Bagian yang bertugas untuk menampilkan informasi dalam bentuk Graphical User Interface (GUI).
-- Controller
+- Controller,
 Bagian yang bertugas untuk menghubungkan serta mengatur model dan view agar dapat saling terhubung.
 
