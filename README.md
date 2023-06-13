@@ -23,6 +23,9 @@ CodeIgniter tepat untuk Anda jika:
 - Anda tidak ingin dipaksa untuk mempelajari bahasa template (walaupun pengurai template tersedia secara opsional jika Anda menginginkannya).
 - Anda menghindari kerumitan, menyukai solusi sederhana.
 
-## Install CodeIgniter Monggunakan Composer
+## Instal CodeIgniter
+✨Menggunakan Composer✨
+✨Menggunakan Cara Manual✨
 
+##Konsep MVC(Model View Controller)
 ![alt text](?raw=true)
