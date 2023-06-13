@@ -25,6 +25,7 @@ CodeIgniter tepat untuk Anda jika:
 
 ## Install CodeIgniter4
 ✨Menggunakan Composer✨
+
 ✨Menggunakan Cara Manual✨
 
 ## Konsep MVC
