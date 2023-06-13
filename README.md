@@ -4,6 +4,9 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ## Apa itu codeIgniter?
+
+![alt text](https://github.com/DwiEllya/CodeIgniter4/blob/main/assets/film/CodeIgniter-1024x576.png?raw=true)
+
 CodeIgniter adalah sebuah web application framework yang digunakan untuk membangun aplikasi PHP dinamis yang dibangun menggunakan konsep Model View Controller development pattern. 
 CodeIgniter menyediakan berbagai macam library yang dapat mempermudah dalam pengembangan dan termasuk framework tercepat dibandingkan dengan framework lainnya.
 
