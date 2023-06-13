@@ -7,10 +7,21 @@
 
 ![alt text](https://github.com/DwiEllya/CodeIgniter4/blob/main/assets/film/CodeIgniter-1024x576.png?raw=true)
 
-CodeIgniter adalah sebuah web application framework yang digunakan untuk membangun aplikasi PHP dinamis yang dibangun menggunakan konsep Model View Controller development pattern. 
-CodeIgniter menyediakan berbagai macam library yang dapat mempermudah dalam pengembangan dan termasuk framework tercepat dibandingkan dengan framework lainnya.
+CodeIgniter adalah Kerangka Pengembangan Aplikasi - toolkit - untuk orang yang membangun situs web menggunakan PHP. Tujuannya adalah untuk memungkinkan Anda mengembangkan proyek jauh lebih cepat daripada jika Anda menulis kode dari awal, dengan menyediakan kumpulan pustaka yang kaya untuk tugas-tugas yang biasanya dibutuhkan, serta antarmuka sederhana dan struktur logis untuk mengakses pustaka ini. CodeIgniter memungkinkan Anda secara kreatif fokus pada proyek Anda dengan meminimalkan jumlah kode yang diperlukan untuk tugas tertentu.
 
-Composer adalah alat dependency manager untuk bahasa pemrograman PHP. Dengan kata lain, Composer adalah aplikasi yang diinstal ke perangkat untuk memfasilitasi developer menggunakan library open source milik orang lain ke dalam project yang sedang dibangun. Composer membantu mengatur ketergantungan (dependency) atau penggunaan library luar project PHP. Proses penulisan kode akan lebih cepat dan terstruktur, sebab kemampuannya dalam mengelola instalasi dan mengupdate library yang digunakan.
+Jika memungkinkan, CodeIgniter dibuat sefleksibel mungkin, memungkinkan Anda untuk bekerja dengan cara yang Anda inginkan, tidak dipaksa bekerja dengan cara tertentu. Kerangka dapat memiliki bagian inti yang mudah diperpanjang atau diganti sepenuhnya untuk membuat sistem bekerja sesuai kebutuhan Anda. Singkatnya, CodeIgniter adalah kerangka kerja lunak yang mencoba menyediakan alat yang Anda butuhkan sambil menyingkir.
+
+## Apakah CodeIgniter Tepat untuk Anda?
+CodeIgniter tepat untuk Anda jika:
+
+- Anda menginginkan kerangka kerja dengan footprint kecil.
+- Anda membutuhkan kinerja yang luar biasa.
+- Anda menginginkan kerangka kerja yang memerlukan konfigurasi hampir nol.
+- Anda menginginkan kerangka kerja yang tidak mengharuskan Anda menggunakan baris perintah.
+- Anda menginginkan kerangka kerja yang tidak mengharuskan Anda mematuhi aturan pengkodean yang ketat.
+- Anda tidak tertarik dengan perpustakaan monolitik berskala besar seperti PEAR.
+- Anda tidak ingin dipaksa untuk mempelajari bahasa template (walaupun pengurai template tersedia secara opsional jika Anda menginginkannya).
+- Anda menghindari kerumitan, menyukai solusi sederhana.
 
 ## Install CodeIgniter Monggunakan Composer
 
