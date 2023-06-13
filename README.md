@@ -27,5 +27,13 @@ CodeIgniter tepat untuk Anda jika:
 ✨Menggunakan Composer✨
 ✨Menggunakan Cara Manual✨
 
-##Konsep MVC(Model View Controller)
-![alt text](?raw=true)
+## Konsep MVC
+![alt text](https://github.com/DwiEllya/CodeIgniter4/blob/main/assets/film/MVC.jpg?raw=true)
+Model View Controller atau yang dapat disingkat MVC adalah sebuah pola arsitektur dalam membuat sebuah aplikasi dengan cara memisahkan kode menjadi tiga bagian yang terdiri dari:
+- Model
+Bagian yang bertugas untuk menyiapkan, mengatur, memanipulasi, dan mengorganisasikan data yang ada di database.
+- View
+Bagian yang bertugas untuk menampilkan informasi dalam bentuk Graphical User Interface (GUI).
+- Controller
+Bagian yang bertugas untuk menghubungkan serta mengatur model dan view agar dapat saling terhubung.
+
