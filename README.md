@@ -9,7 +9,7 @@
 
 CodeIgniter adalah Kerangka Pengembangan Aplikasi - toolkit - untuk orang yang membangun situs web menggunakan PHP. Tujuannya adalah untuk memungkinkan Anda mengembangkan proyek jauh lebih cepat daripada jika Anda menulis kode dari awal, dengan menyediakan kumpulan pustaka yang kaya untuk tugas-tugas yang biasanya dibutuhkan, serta antarmuka sederhana dan struktur logis untuk mengakses pustaka ini. CodeIgniter memungkinkan Anda secara kreatif fokus pada proyek Anda dengan meminimalkan jumlah kode yang diperlukan untuk tugas tertentu.
 
-Jika memungkinkan, CodeIgniter dibuat sefleksibel mungkin, memungkinkan Anda untuk bekerja dengan cara yang Anda inginkan, tidak dipaksa bekerja dengan cara tertentu. Kerangka dapat memiliki bagian inti yang mudah diperpanjang atau diganti sepenuhnya untuk membuat sistem bekerja sesuai kebutuhan Anda. Singkatnya, CodeIgniter adalah kerangka kerja lunak yang mencoba menyediakan alat yang Anda butuhkan sambil menyingkir.
+Jika memungkinkan, CodeIgniter dibuat sefleksibel mungkin, memungkinkan Anda untuk bekerja dengan cara yang Anda inginkan, tidak dipaksa bekerja dengan cara tertentu. Kerangka dapat memiliki bagian inti yang mudah diperpanjang atau diganti sepenuhnya untuk membuat sistem bekerja sesuai kebutuhan Anda. 
 
 ## Apakah CodeIgniter Tepat untuk Anda?
 CodeIgniter tepat untuk Anda jika:
