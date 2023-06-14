@@ -38,3 +38,28 @@ Bagian yang bertugas untuk menampilkan informasi dalam bentuk Graphical User Int
 - Controller,
 Bagian yang bertugas untuk menghubungkan serta mengatur model dan view agar dapat saling terhubung.
 
+## Membuat data film menggunakan CodeIgniter
+1. Membuat file baru dengan nama ”Film.php” didalam folder App/Controllers. Untuk membuat file baru dapat mengetikkan perintah diterminal “php spark make:controllers Film”. Atau bisa juga dengan cara klik kanan dan “new file”.
+2. Membuat file baru dengan nama ”FilmModel.php” didalam folder App/Models. . Untuk membuat file baru dapat mengetikkan perintah diterminal “php spark make:Model  FilmFilm”. Atau bisa juga dengan cara klik kanan dan “new file”.
+![alt text](?raw=true)
+3. Membuat Folder Film pada View, kemudian didalam folder tersebut buat sebuah file dengan nama Index.php.
+![alt text](?raw=true)
+4. Ketikkan perintah source code berikut pada file Film.php 
+![alt text](?raw=true)
+5. Ketikkan Perintah berikut pada FilmModel.php . yang menyimpan data-data film.
+![alt text](?raw=true)
+6. Ketikkan perintah berikut pada index.php.
+![alt text](?raw=true)
+7. sebelum menjalankan ke web browser jalankan perintah ”php spark serve” pada terminal.
+![alt text](?raw=true)
+8. akses localhost:8080/Film , apabila tampilan seperti ini maka terjadi kesalahan.
+![alt text](?raw=true)
+9. cara mengatasinya yaitu dengan menambahkan tanda titik pada env, menghapus ”#” dan ganti menjadi development.
+![alt text](?raw=true)
+10. pada file router/App/Config hapus tanda ”//” dan ubah menjadi true.
+![alt text](?raw=true)
+11. akses kembali localhost:8080/film . 
+![alt text](?raw=true)
+12. berhasil menampilkan data.
+![alt text](?raw=true)
+
