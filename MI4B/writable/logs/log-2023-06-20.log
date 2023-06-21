@@ -1,0 +1,640 @@
+CRITICAL - 2023-06-20 02:30:02 --> Undefined variable: Film
+in APPPATH\Views\Film\index.php on line 39.
+ 1 APPPATH\Views\Film\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(22): view('Film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 02:30:15 --> Undefined variable: Film
+in APPPATH\Views\Film\index.php on line 39.
+ 1 APPPATH\Views\Film\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(22): view('Film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 04:09:35 --> Undefined variable: data_film
+in APPPATH\Views\Genre\index.php on line 46.
+ 1 APPPATH\Views\Genre\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_film', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Genre\\index.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Genre\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Genre/index', [], true)
+ 5 APPPATH\Controllers\Genre.php(22): view('Genre/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 06:32:57 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 06:39:55 --> mysqli_sql_exception: Not unique table/alias: 'genre' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 06:39:55 --> Not unique table/alias: 'genre'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `genre`.`id_genre` = `genre`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `genre`.`id_genre` = `genre`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `genre`.`id_genre` = `genre`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `genre`.`id_genre` = `genre`.`id_genre`', [], false)
+ 5 APPPATH\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 06:44:14 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Genre.php on line 32.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('genre')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('genre')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('genre')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 06:52:36 --> mysqli_sql_exception: Not unique table/alias: 'genre' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 06:52:36 --> Not unique table/alias: 'genre'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id_genre`', [], false)
+ 5 APPPATH\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 06:55:55 --> mysqli_sql_exception: Unknown column 'film.id_film' in 'on clause' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 06:55:55 --> Unknown column 'film.id_film' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_film` = `genre`.`id_film`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_film` = `genre`.`id_film`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_film` = `genre`.`id_film`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_film` = `genre`.`id_film`', [], false)
+ 5 APPPATH\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 06:57:48 --> mysqli_sql_exception: Unknown column 'film.nama_genre' in 'field list' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 06:57:48 --> Unknown column 'film.nama_genre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`', [], false)
+ 5 APPPATH\Models\GenreModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 06:59:34 --> mysqli_sql_exception: Unknown column 'film.nama_genre' in 'on clause' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 06:59:34 --> Unknown column 'film.nama_genre' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `genre`.`id_genre`
+FROM `genre`
+JOIN `film` ON `film`.`nama_genre` = `genre`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `genre`.`id_genre`
+FROM `genre`
+JOIN `film` ON `film`.`nama_genre` = `genre`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `genre`.`id_genre`
+FROM `genre`
+JOIN `film` ON `film`.`nama_genre` = `genre`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `genre`.`id_genre`
+FROM `genre`
+JOIN `film` ON `film`.`nama_genre` = `genre`.`id_genre`', [], false)
+ 5 APPPATH\Models\GenreModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 07:00:49 --> mysqli_sql_exception: Unknown column 'film.nama_genre' in 'field list' in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`....', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`....')
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`....')
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-20 07:00:49 --> Unknown column 'film.nama_genre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `film`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `film`.`id_genre` = `genre`.`id_genre`', [], false)
+ 5 APPPATH\Models\GenreModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 07:02:07 --> Undefined index: update_at
+in APPPATH\Views\Genre\index.php on line 51.
+ 1 APPPATH\Views\Genre\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: update_at', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Genre\\index.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Genre\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Genre/index', [], true)
+ 5 APPPATH\Controllers\Genre.php(22): view('Genre/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 07:11:28 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 07:56:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\About.php(21): CodeIgniter\Model->__call('getAbout', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 11:37:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\About.php(21): CodeIgniter\Model->__call('getAbout', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 11:38:44 --> Call to undefined method App\Models\AboutModel::getAbout
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\About.php(21): CodeIgniter\Model->__call('getAbout', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:18:43 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:20:39 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:20:40 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:20:43 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:27:38 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:27:39 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:27:42 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:31:47 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:32:32 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:32:52 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 12:33:09 --> Undefined variable: data
+in APPPATH\Models\AboutModel.php on line 10.
+ 1 APPPATH\Models\AboutModel.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\MI4B\\app\\Models\\AboutModel.php', 10, [])
+ 2 APPPATH\Controllers\About.php(22): App\Models\AboutModel->getAbout()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 14:25:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_film', 3306, '', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`....', Array, false)
+#3 C:\xampp\htdocs\MI4B\app\Models\GenreModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MI4B\app\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+#5 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-20 14:25:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `genre`.*, `genre`.`nama_genre`
+FROM `genre`
+JOIN `film` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 3 APPPATH\Models\GenreModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Genre.php(21): App\Models\GenreModel->getAllDataJoin()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 14:25:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_film', 3306, '', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#3 C:\xampp\htdocs\MI4B\app\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MI4B\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#5 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-20 14:25:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 3 APPPATH\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+ERROR - 2023-06-20 14:25:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_film', 3306, '', 0)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 C:\xampp\htdocs\MI4B\app\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MI4B\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\MI4B\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MI4B\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MI4B\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#3 C:\xampp\htdocs\MI4B\app\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MI4B\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#5 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#6 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#7 C:\xampp\htdocs\MI4B\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MI4B\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\MI4B\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-20 14:25:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 3 APPPATH\Models\FilmModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 14:50:15 --> Class 'App\Models\AboutModel' not found
+in APPPATH\Controllers\About.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\About->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:21:31 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:23:33 --> Invalid file: "Film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('Film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:23:49 --> Invalid file: "film/About.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/About.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/About', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/About')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:25:23 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:29:20 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:33:33 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:35:28 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:36:26 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:40:38 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:51:45 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-06-20 16:54:16 --> Invalid file: "film/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/about', [], true)
+ 3 APPPATH\Controllers\About.php(7): view('film/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')

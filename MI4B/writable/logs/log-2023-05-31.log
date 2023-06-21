@@ -1,0 +1,104 @@
+CRITICAL - 2023-05-31 02:04:44 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:04:57 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:05:55 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:08:24 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:11:32 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:16:26 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:17:04 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:18:33 --> Call to a member function getFilm() on null
+in APPPATH\Controllers\Film.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:19:37 --> Class 'CodeIgniter\Models' not found
+in APPPATH\Models\FilmModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\MI4B\\app\\Models\\FilmModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 5 APPPATH\Controllers\Film.php(17): spl_autoload_call('App\\Models\\FilmModel')
+ 6 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 02:19:55 --> Class 'CodeIgniter\Models' not found
+in APPPATH\Models\FilmModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\MI4B\\app\\Models\\FilmModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 5 APPPATH\Controllers\Film.php(17): spl_autoload_call('App\\Models\\FilmModel')
+ 6 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 03:10:39 --> Undefined index: nama_film
+in APPPATH\Views\Film\index.php on line 21.
+ 1 APPPATH\Views\Film\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_film', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(22): view('Film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
+CRITICAL - 2023-05-31 03:11:23 --> Undefined index: nama_film
+in APPPATH\Views\Film\index.php on line 21.
+ 1 APPPATH\Views\Film\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_film', 'C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\MI4B\\app\\Views\\Film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(22): view('Film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MI4B\\public\\index.php')
