@@ -34,10 +34,13 @@
         <td> <?= $Film["nama_genre"]?></td>
         <td> <?= $Film["duration"]?></td>
 <td>
-    <a href="" class="btn btn-success"> Update</a>
-    <a href="" class="btn btn-dark" > Delete</a>
+<td>
+     <a href="/film/update/<?= $Film["id"]; ?>" class="btn btn-success">Update</a>
+     <a href="" class="btn btn-danger">Delete</a>
+</td>
 </td>
 </tr>
+
 <?php endforeach; ?>
     </div>
    <?= $this->endSection()?>

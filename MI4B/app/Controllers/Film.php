@@ -33,36 +33,67 @@ class Film extends BaseController
     public function add()
         {
             $data["genre"]=$this->Genre->getAllData();
+            $data["errors"] = session('errors');
             return view("Film/add", $data);
         }
     public function store()
     {
-        $image =$this->request->getFile('cover');
+        $validation = $this->validate([
+            'nama_film' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'kolom nama film harus diisi'
+                ]
+            ],
+            'id_genre' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'kolom genre harus diisi'
+                ]
+            ],
+            'duration' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'kolom durasi harus diisi'
+                ]
+            ],
+            'cover' => [
+                'rules' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/png]|max_size[cover,2048]',
+                'errors' => [
+                    'uploaded' => 'kolom cover harus berisi file.',
+                    'mime_in' => 'tipe file pada kolom cover harus berupa JPG, JPEG, atau PNG',
+                    'max_size' => 'Ukuran file pada kolom cover melebihi batas maximum'
+                ]
+            ]       
+        ]);
+
+        if (!$validation){
+            $errors = \Config\Services::validation()->getErrors();
+
+            return redirect()->back()->withInput()->with('errors', $errors);
+        }
+
+        $image = $this->request->getFile('cover');
 
         $imageName =$image->getRandomName();
 
-        $image->move(ROOTPATH . 'public/assets/cover/', $imageName);
+        $image->move(ROOTPATH . 'public/assets/film/', $imageName);
 
-        $data=[
+        $data = [
             'nama_film' => $this->request->getPost('nama_film'),
             'id_genre' => $this->request->getPost('id_genre'),
             'duration' => $this->request->getPost('duration'),
             'cover' =>  $imageName,
         ];
         $this->Film->save($data);
-        return redirect()->to('/Film');
+        session()->setFlashdata('success', 'Data berhasil disimpan.'); // tambahkan ini
+        return redirect()->to('/film');
     }
-
-    public function Film_by_id(){
-    dd($this ->Film->getDataByID(1));
-    } 
-    public function Film_genre (){
-        dd($this ->Film->getDataBy('Horor'));
-    }
-    public function Film_Order(){
-        dd($this ->Film->getOrderBy());
-    }
-    public function Film_limit_five (){
-        dd($this ->Film->getLimit());
+    public function update($id)
+    {
+        $data["genre"] = $this->genre->getAllData();
+        $data["errors"] = session('errors');
+        $data["semuafilm"] =$this->Film->getDataByID($id);
+        return view("film/update", $data);
     }
 }
